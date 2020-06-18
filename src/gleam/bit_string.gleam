@@ -2,7 +2,7 @@
 //// The BitString type should be used instead of a String type when not utf8
 //// encoded.
 
-// TODO: determine which of these functions once we have bit string syntax
+// TODO: Remove this type once v0.10 is out as it bundles a BitString type
 pub external type BitString
 
 /// Convert a utf8 String type into a raw BitString type.
